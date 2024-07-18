@@ -1,0 +1,206 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.navbar{
+	width: 100%;
+	height: 80px;
+	background-color: #fee;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #000;
+}
+.menu ul{
+	display: flex;
+} 
+.menu ul li a{
+	text-decoration: none;
+	color:#914e67;
+	padding: 10px 12px;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+.menu ul li a:hover{
+	border-bottom: 4px solid #000;
+	transition: 0.4s;
+} 
+.signup a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 12px;
+	padding: 12px 30px;
+	border: 2px solid #914e67;
+}
+.signup a:hover{
+	background-color: #914e67;
+	transition: 0.6s;
+}
+.body{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(/TravelWeb/Images/img1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.heading{
+	width: 30%;
+	text-align: center;
+	color: #fff;
+}
+.heading h1{
+	font-size: 40px;
+}
+.heading a{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 45px;
+	padding: 14px 50px;
+	background-color: #fff;
+}
+.heading a:hover{
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+.tours{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.places{
+	display: inline;
+	text-align: center;
+	border-radius: 12px;
+}
+.places h2{
+	color: #914e67;
+	font-size: 35px;
+	letter-spacing: 3px;
+	border-radius: 1px;
+	padding: 30px 30px;
+	background-color: #b49797;
+}
+.places a{
+	text-decoration: none;
+	color: #914e67;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 12px;
+	padding: 12px 30px;
+	background-color: #fff;
+}
+.places a:hover{
+	background-color: #000;
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer a{
+	text-decoration: none;
+	color: green;
+	font-size: 18px;
+	font-weight: bold;
+}
+.footer a:hover{
+	text-decoration: underline;
+	transition: 0.4s;
+}
+
+.All{
+  height: 4000px;
+}
+h2{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 30px;
+  color: #914e67;
+}
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #914e67;
+  color: white;
+  font-size: 1.2em;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+.travel-planning {
+  margin: 20px auto;
+  width: 80%;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.travel-planning h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color:#914e67;
+}
+.travel-planning div {
+  margin-bottom: 15px;
+}
+
+.travel-planning label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.travel-planning input, .travel-planning textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.travel-planning input[type="submit"], .travel-planning input[type="reset"] {
+  width: auto;
+  padding: 10px 20px;
+  background-color:#914e67;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.travel-planning input[type="submit"]:hover, .travel-planning input[type="reset"]:hover {
+  background-color: #dcd4d7;
+}
